@@ -1,6 +1,8 @@
 # Vuetify
 Vuetify for fun.
 
+Fom more information - [Quick Start Guide](https://vuetifyjs.com/en/getting-started/quick-start).
+
 ## How to run
 
 * [Install Vue CLI and npm, node, etc](https://www.google.com)
