@@ -41,22 +41,27 @@
       <HelloWorld/>
     </v-content>
 
+<!--
     <v-content>
       <Cart/>
     </v-content>
-  </v-app>
+-->
+    <v-content>
+      <DataTable/>
+    </v-content>
+</v-app>
 </template>
 
 <script>
+import DataTable from './components/DataTable';
 import HelloWorld from './components/HelloWorld';
-import Cart from './components/Cart';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
-    Cart
+    DataTable,
+    HelloWorld
   },
 
   data: () => ({
